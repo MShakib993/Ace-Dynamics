@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* header start from here */
+
+.header {
+    width: 100%;
+    float: left;
+    background: url(../img/index-home_banner.jpg)no-repeat center center;
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    padding: 0 0 220px 0;
+}
+
+.container1 {
+    width: 1420px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo img {
+    width: 37%;
+}
+
+.navigation {
+    width: 60%;
+    float: left;
+    margin-top: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    float: left;
+    list-style: none;
+    margin: 0px 20px 0 20px;
+    position: relative;
+}
+
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.navigation ul li ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: none;
+    left: 0;
+    background-color: white;
+    min-width: 267px;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+}
+
+.navigation ul li ul li {
+    width: 85%;
+    float: left;
+    padding: 5px 10px;
+    display: block;
+    border-top: 1px solid #e3e3e3;
+    cursor: pointer;
+    margin: 0 10px 10px 10px;
+}
+
+
+.navigation ul li ul li a {
+    display: block;
+    font-size: 16px;
+}
+
+.navigation ul li ul li a:hover{
+    color: blue;
+}
+
+.navigation ul li:hover ul {
+    display: block;
+    background:white;
+    color: black;
+}
+
+.navigation ul li ul:hover{
+    display: block;
+} 
+
+
+.navigation ul li a:hover {
+    display: block;
+}
+
+
+.navigation-right {
+    width: 20%;
+    float: left;
+    margin-top: 26px;
+}
+
+.navigation-right ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-right ul li {
+    list-style: none;
+    width: 50%;
+    float: left;
+}
+
+.navigation-right ul li a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navigation-right ul li:first-child a {
+    color: black;
+    font-size: 13px;
+}
+
+.navigation-right ul li:last-child a {
+    color: white;
+    background-color: blue;
+    padding: 15px 10px;
+    border-radius: 16px;
+    box-shadow: 0px 9px 2px -4px #000d88;
+    font-size: 12px;
+}
+
+.navigation-right ul li:last-child a:hover {
+    background-color: #6d8fe6;
+    cursor: pointer;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navigation-content {
+    width: 100%;
+    float: left;
+    margin-top: 67px;
+}
+
+.navigation-content ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-content ul li {
+    width: 100%;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+
+.navigation-content ul li h1 {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1;
+    color: #0047ff;
+}
+
+.navigation-content ul li h5 {
+    font-size: 15px;
+}
+
+.navigation-content ul li p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* .navigation-content ul li :hover .half-circle{
+    transition: 0.8s ease-in-out;
+} */
+
+
+.half-circle {
+    width: 50px;
+}
+
+.navigation-content ul li span {
+    position: absolute;
+    top: 335px;
+}
+
+.water-drop {
+    position: absolute;
+    top: 156px;
+    left: 560px;
+    width: 8%;
+}
+
+/* header end from here */
+
+
+/* about start from here */
+
+.about {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 3%;
+
+}
+
+.about .about-left {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.about .about-left img {
+    width: 100%;
+    position: absolute;
+    top: -73px;
+    z-index: -1;
+    right: 247px;
+
+}
+
+.about .about-right {
+    width: 53%;
+    float: right;
+    margin-top: 164px;
+}
+
+.about .about-right ul {
+    padding: 0;
+    margin: 0;
+}
+
+.about .about-right ul li {
+    list-style: none;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.about .about-right ul li h2 {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.about .about-right ul li h5 {
+    color: blue;
+}
+
+.about .about-right ul li p {
+    margin-top: 10px;
+}
+
+
+.about .about-right ul li img {
+    margin-top: 20px;
+    width: 50px;
+}
+
+.about .about-right ul li span {
+    position: absolute;
+    top: 480px;
+}
+
+/* about end from here */
+
+
+/* ace benefit start from here */
+
+.ace-benefit {
+    width: 100%;
+    float: left;
+    background: url(../img/benefits-section-banner.png)no-repeat center center;
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    height: 570px;
+}
+
+.ace-benefit .ace-benefit-right {
+    margin-top: 90px;
+    width: 25%;
+    float: left;
+}
+
+.ace-benefit .ace-benefit-right h3 {
+    color: white;
+    font-size: 37px;
+}
+
+.ace-benefit .ace-benefit-left {
+    margin-top: 90px;
+    width: 72%;
+    float: right;
+    border-left: 1px solid white;
+}
+
+.ace-be .ace-benefit-left ul {
+    nefit margin: 0;
+    padding: 0;
+}
+
+.ace-benefit .ace-benefit-left ul li {
+    list-style: none;
+    width: 22%;
+    float: left;
+    min-height: 138px;
+    margin: 22px 10px;
+}
+
+.ace-benefit .ace-benefit-left ul li p {
+    color: white;
+    margin-top: 10px;
+}
+
+.ace-benefit .ace-benefit-left ul li img:hover {
+    scale: 110%;
+    cursor: pointer;
+}
+
+
+.our-services {
+    width: 100%;
+    float: left;
+}
+
+
+.our-services .our-services-first {
+    width: 100%;
+    float: left;
+}
+
+.our-services .our-services-first h5 {
+    text-align: center;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.our-services .our-services-first h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.our-services .our-services-first p {
+    text-align: center;
+    padding: 0 336px;
+    margin-bottom: 3%;
+}
+
+.our-services .our-services-second {
+    width: 100%;
+    display: table;
+}
+
+.our-services .our-services-second tr {
+    display: table-row;
+}
+
+.our-services .our-services-second td {
+    display: table-cell;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 0 90px 0 0;
+    max-width: 400px;
+    width: 100%;
+    border: none;
+    border: 1px solid #0047ff;
+    border-radius: 0 91px 15px 15px;
+    margin-bottom: 50px;
+    min-height: 526px;
+    background: #e3f2ff;
+}
+
+.our-services .our-services-second td a {
+    background-color: blue;
+    padding: 15px 25px;
+    border-radius: 0px 16px 16px 16px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.our-services .our-services-second td p {
+    padding: 37px 0;
+}
+
+.our-services .our-services-second td a:hover {
+    background-color: rgb(22, 22, 43);
+    cursor: pointer;
+}
+
+/* .our-services .our-services-second td img:hover{
+    width: 110%;
+    cursor: pointer;
+} */
+
+/* maintainence section start from here  */
+
+.maintainence{
+    width: 100%;
+    float: left;
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.maintainence .maintainence-first{
+    width: 100%;
+    float: left;
+}
+
+.maintainence .maintainence-first h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.maintainence .maintainence-first h5{
+    text-align: center;
+    color: blue;
+}
+
+.maintainence .maintainence-first p{
+    text-align: center;
+}
+
+.maintainence .maintainence-second{
+    width: 100%;
+    display: table;
+}
+
+.maintainence .maintainence-second tr{
+    display:table-row;
+    width: 100%;
+}
+
+.maintainence .maintainence-second td{
+    display: table-cell; 
+    text-align: center;
+    width: 25%;
+
+    
+}
+
+.maintainence .maintainence-second td img{
+    padding:40px;
+    background-color: white;
+    border-radius:100%;
+}
+
+.maintainence .maintainence-second td p{
+    padding: 0 55px;
+    font-weight: 700;
+}
+
+/* Maintainence section end from here */
+
+.enquire{
+    background: url(../img/enq-banner.jpg)no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  float: left;
+}

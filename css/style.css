@@ -485,3 +485,29 @@ body {
   background-size: cover;
   float: left;
 }
+
+
+.enquire .enquire-content{
+    width: 100%;
+    float: left;
+}
+
+.enquire .enquire-content ul li h3{
+  text-align: center;
+  font-size:35px;
+  color: white;
+  margin-top: 160px;
+  margin-bottom: 20px;
+}
+.enquire .enquire-content ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.enquire .enquire-content ul li a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: white;
+    color: blue;
+    border-radius: 22px;
+}

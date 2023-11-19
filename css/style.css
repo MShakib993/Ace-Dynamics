@@ -339,6 +339,10 @@ body {
     cursor: pointer;
 }
 
+/* Ace benefit end from here */
+
+
+/* Our services start from here */
 
 .our-services {
     width: 100%;
@@ -418,6 +422,10 @@ body {
     cursor: pointer;
 } */
 
+/* Our services end from here */
+
+
+
 /* maintainence section start from here  */
 
 .maintainence{
@@ -478,6 +486,8 @@ body {
 
 /* Maintainence section end from here */
 
+/* Enquire start from here */
+
 .enquire{
     background: url(../img/enq-banner.jpg)no-repeat;
   width: 100%;
@@ -506,8 +516,282 @@ body {
 
 .enquire .enquire-content ul li a{
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 13px 40px;
     background-color: white;
     color: blue;
     border-radius: 22px;
+    box-shadow: 0px 9px 2px -4px #000d88;
+}
+
+.enquire .enquire-content ul li a:hover{
+    color: white;
+    background-color: blue;
+}
+
+/* Equire end from here */
+
+/* Our latest post start from here*/
+
+.latest-post{
+    width: 100%;
+    float: left;
+    background: url(../img/projects-banner.jpg)no-repeat;
+    padding:100px 0;
+}
+
+.latest-post .latest-post-left{
+    width:30%;
+    float: left;
+}
+
+.latest-post .latest-post-left h3{
+   color: white;
+   font-size:50px;
+   margin-bottom: 10px;
+   font-weight: 700;
+}
+
+.latest-post .latest-post-left h5{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.latest-post .latest-post-left p{
+    color: white;
+    font-size: 14px;
+    
+}
+
+
+.latest-post .latest-post-right{
+    width:70%;
+    float: left;
+}
+
+
+.latest-post .latest-post-right ul{
+    margin: 0;
+    padding: 0;
+}
+
+.latest-post .latest-post-right ul li{
+       float: left;
+       width: 30%;
+       list-style: none;
+       margin: 10px;
+       background-color: white;
+       min-height: 485px;
+    }
+
+.latest-post .latest-post-right ul li img{
+    width: 100%;
+}
+
+.latest-post .latest-post-right ul li p{
+    color: black;
+    padding: 18px;
+    font-size: 14px;
+}
+
+/* Our latest post end from here */
+
+/* Our client start from here */
+
+.our-client{
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+}
+
+.our-client ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-client ul li{
+    list-style: none;
+    padding:0 24px;
+}
+
+.our-client .client-border{
+    border-right: 1px solid black;
+}
+
+/* Our latest end from here */
+
+
+/* client say start from here */
+
+.client-say{
+    width: 100%;
+    float: left;
+    background-color: #f9f9f9;
+    padding:70px 0;
+}
+
+.client-say h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    margin-bottom:100px;
+}
+
+.client-say ul{
+    margin: 0;
+    padding: 0;
+}
+
+.client-say ul li{
+    list-style: none;
+    text-align: center;
+}
+
+/* client say end from here */
+
+/* sign uo start from here */
+
+.sign-up{
+    width: 100%;
+    float: left;
+    padding:50px 0;
+}
+
+.sign-up ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sign-up ul li{
+    text-align: center;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+.sign-up ul li h5{
+    color: blue;
+}
+
+.sign-up ul li h2{
+               font-size:45px;
+               font-weight: 800;
+}
+
+.sign-up ul li input{
+    margin: 10px;
+}
+
+.sign-up ul li input[type=text]{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+
+
+.sign-up ul li input[type=email]{border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 20px 211px 20px 30px
+}
+
+
+.sign-up ul li input[type=submit]{
+    background: #0047ff;
+    color: #fff;
+    padding: 13px 52px;
+    border: 1px solid #00227a;
+    height: 62px;
+    border-radius: 16px;
+}
+
+.sign-up ul li input[type=submit]:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid blue;
+}
+
+/* Sign up end from here */
+
+/* footer start from here */
+.footer{
+    background: url(../img/footer-bg.jpg)no-repeat;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    padding:200px 0 10px 0;
+}
+
+.footer .footer-left{
+    width: 30%;
+    float: left;
+}
+
+.footer .footer-left ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-left ul li{
+       list-style: none;
+       float: left;
+       float: right;
+       width: 83%;
+}
+
+.footer .footer-left ul li img{
+           margin-bottom:20px;
+}
+
+.footer .footer-left .footer-img{
+    margin-left:30px;
+}
+
+.footer .footer-left ul li p{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer .footer-right{
+    width: 70%;
+    float:right;
+}
+
+.footer .footer-right ul{
+    margin: 0;
+}
+
+.footer .footer-right ul li{
+    list-style: none;
+    width: 25%;
+    float: left;
+}
+
+.footer .footer-right ul li h3{
+    color: white;
+    margin-bottom:30px;
+}
+
+.footer .footer-right ul li p{
+    color: white;
+    margin-bottom:10px;
+}
+
+.copy-right{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.copy-right p{
+    color: white;
+    font-size: 14px;
 }

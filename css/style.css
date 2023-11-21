@@ -453,36 +453,41 @@ body {
 
 .maintainence .maintainence-first p{
     text-align: center;
+    margin-bottom: 3%;
 }
 
-.maintainence .maintainence-second{
-    width: 100%;
-    display: table;
+.maintainence-circle{
+    width:25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
 }
 
-.maintainence .maintainence-second tr{
-    display:table-row;
-    width: 100%;
-}
 
-.maintainence .maintainence-second td{
-    display: table-cell; 
-    text-align: center;
-    width: 25%;
 
-    
-}
-
-.maintainence .maintainence-second td img{
-    padding:40px;
+.circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
     background-color: white;
-    border-radius:100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.maintainence .maintainence-second td p{
-    padding: 0 55px;
-    font-weight: 700;
+.circle-text{
+    padding: 0 80px;
+    text-align: center;
 }
+
+.circle-text p{
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 12px;
+}
+
 
 /* Maintainence section end from here */
 

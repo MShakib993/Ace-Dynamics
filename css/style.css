@@ -12,7 +12,7 @@ body {
 .header {
     width: 100%;
     float: left;
-    background: url(../img/index-home_banner.jpg)no-repeat center center;
+    background: url(../img/index-home_banner.jpg)no-repeat center;
     background-size: cover;
     background-size: 100%;
     background-position: center;
@@ -90,19 +90,19 @@ body {
     font-size: 16px;
 }
 
-.navigation ul li ul li a:hover{
+.navigation ul li ul li a:hover {
     color: blue;
 }
 
 .navigation ul li:hover ul {
     display: block;
-    background:white;
+    background: white;
     color: black;
 }
 
-.navigation ul li ul:hover{
+.navigation ul li ul:hover {
     display: block;
-} 
+}
 
 
 .navigation ul li a:hover {
@@ -194,10 +194,11 @@ body {
 
 .half-circle {
     width: 50px;
-}
-.navigation-content .half-circle:hover{
-    transform: rotate(1turn);
     transition: 0.8s ease-in-out;
+}
+
+.navigation-content .half-circle:hover {
+    transform: rotate(1turn);
 }
 
 
@@ -277,11 +278,12 @@ body {
 .about .about-right ul li img {
     margin-top: 20px;
     width: 50px;
+    transition: 0.8s ease-in-out;
+
 }
 
-.about .about-right ul li img:hover{
+.about .about-right ul li img:hover {
     transform: rotate(1turn);
-    transition: 0.8s ease-in-out;
 }
 
 .about .about-right ul li span {
@@ -299,7 +301,6 @@ body {
     float: left;
     background: url(../img/benefits-section-banner.png)no-repeat center center;
     background-size: cover;
-    background-size: 100%;
     background-position: center;
     height: 570px;
 }
@@ -343,6 +344,7 @@ body {
 .ace-benefit .ace-benefit-left ul li img:hover {
     scale: 110%;
     cursor: pointer;
+    transition: 0.5s ease;
 }
 
 /* Ace benefit end from here */
@@ -350,9 +352,15 @@ body {
 
 /* Our services start from here */
 
+.container4 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
 .our-services {
     width: 100%;
     float: left;
+    margin-bottom: 4%;
 }
 
 
@@ -365,6 +373,7 @@ body {
     text-align: center;
     color: blue;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .our-services .our-services-first h2 {
@@ -382,43 +391,54 @@ body {
 
 .our-services .our-services-second {
     width: 100%;
-    display: table;
+    float: left;
 }
 
-.our-services .our-services-second tr {
-    display: table-row;
+.our-services .our-services-second ul {
+    margin: 0;
+    padding: 0;
 }
 
-.our-services .our-services-second td {
+.our-services .our-services-second ul li {
     display: table-cell;
     text-align: center;
     overflow: hidden;
-    border-radius: 0 90px 0 0;
     max-width: 400px;
-    width: 100%;
     border: none;
     border: 1px solid #0047ff;
     border-radius: 0 91px 15px 15px;
-    margin-bottom: 50px;
     min-height: 526px;
     background: #e3f2ff;
+    width: 31%;
+    margin: 30px 10px;
+    float: left;
 }
 
-.our-services .our-services-second td a {
+.our-services .our-services-second ul li a {
     background-color: blue;
     padding: 15px 25px;
     border-radius: 0px 16px 16px 16px;
     font-size: 16px;
     text-decoration: none;
     color: white;
+    z-index: 3;
+    position: relative;
 
 }
 
-.our-services .our-services-second td p {
+.our-services .our-services-second ul li p {
     padding: 37px 0;
 }
 
-.our-services .our-services-second td a:hover {
+.our-services .our-services-second ul li img {
+    transition: 0.4s;
+}
+
+.our-services .our-services-second ul li img:hover {
+    scale: 1.05;
+}
+
+.our-services .our-services-second ul li a:hover {
     background-color: rgb(22, 22, 43);
     cursor: pointer;
 }
@@ -434,36 +454,36 @@ body {
 
 /* maintainence section start from here  */
 
-.maintainence{
+.maintainence {
     width: 100%;
     float: left;
     background-color: #f2f2f2;
     padding: 50px 0;
 }
 
-.maintainence .maintainence-first{
+.maintainence .maintainence-first {
     width: 100%;
     float: left;
 }
 
-.maintainence .maintainence-first h3{
+.maintainence .maintainence-first h3 {
     text-align: center;
     font-size: 50px;
     font-weight: 900;
 }
 
-.maintainence .maintainence-first h5{
+.maintainence .maintainence-first h5 {
     text-align: center;
     color: blue;
 }
 
-.maintainence .maintainence-first p{
+.maintainence .maintainence-first p {
     text-align: center;
     margin-bottom: 3%;
 }
 
-.maintainence-circle{
-    width:25%;
+.maintainence-circle {
+    width: 25%;
     float: left;
     display: flex;
     flex-direction: column;
@@ -473,7 +493,7 @@ body {
 
 
 
-.circle{
+.circle {
     width: 90px;
     height: 90px;
     border-radius: 100%;
@@ -483,12 +503,12 @@ body {
     justify-content: center;
 }
 
-.circle-text{
+.circle-text {
     padding: 0 80px;
     text-align: center;
 }
 
-.circle-text p{
+.circle-text p {
     font-size: 14px;
     font-weight: 800;
     margin-top: 12px;
@@ -499,33 +519,34 @@ body {
 
 /* Enquire start from here */
 
-.enquire{
+.enquire {
     background: url(../img/enq-banner.jpg)no-repeat;
-  width: 100%;
-  height: 400px;
-  background-size: cover;
-  float: left;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    float: left;
 }
 
 
-.enquire .enquire-content{
+.enquire .enquire-content {
     width: 100%;
     float: left;
 }
 
-.enquire .enquire-content ul li h3{
-  text-align: center;
-  font-size:35px;
-  color: white;
-  margin-top: 160px;
-  margin-bottom: 20px;
+.enquire .enquire-content ul li h3 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 160px;
+    margin-bottom: 20px;
 }
-.enquire .enquire-content ul li{
+
+.enquire .enquire-content ul li {
     text-align: center;
     list-style: none;
 }
 
-.enquire .enquire-content ul li a{
+.enquire .enquire-content ul li a {
     text-decoration: none;
     padding: 13px 40px;
     background-color: white;
@@ -534,7 +555,7 @@ body {
     box-shadow: 0px 9px 2px -4px #000d88;
 }
 
-.enquire .enquire-content ul li a:hover{
+.enquire .enquire-content ul li a:hover {
     color: white;
     background-color: blue;
 }
@@ -543,62 +564,63 @@ body {
 
 /* Our latest post start from here*/
 
-.latest-post{
+.latest-post {
     width: 100%;
     float: left;
     background: url(../img/projects-banner.jpg)no-repeat;
-    padding:100px 0;
+    padding: 100px 0;
+    background-size: cover;
 }
 
-.latest-post .latest-post-left{
-    width:30%;
+.latest-post .latest-post-left {
+    width: 30%;
     float: left;
 }
 
-.latest-post .latest-post-left h3{
-   color: white;
-   font-size:50px;
-   margin-bottom: 10px;
-   font-weight: 700;
+.latest-post .latest-post-left h3 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
-.latest-post .latest-post-left h5{
+.latest-post .latest-post-left h5 {
     color: white;
     margin-bottom: 10px;
 }
 
-.latest-post .latest-post-left p{
+.latest-post .latest-post-left p {
     color: white;
     font-size: 14px;
-    
+
 }
 
 
-.latest-post .latest-post-right{
-    width:70%;
+.latest-post .latest-post-right {
+    width: 70%;
     float: left;
 }
 
 
-.latest-post .latest-post-right ul{
+.latest-post .latest-post-right ul {
     margin: 0;
     padding: 0;
 }
 
-.latest-post .latest-post-right ul li{
-       float: left;
-       width: 30%;
-       list-style: none;
-       margin: 10px;
-       background-color: white;
-       min-height: 485px;
-    }
+.latest-post .latest-post-right ul li {
+    float: left;
+    width: 30%;
+    list-style: none;
+    margin: 10px;
+    background-color: white;
+    min-height: 485px;
+}
 
-.latest-post .latest-post-right ul li img{
+.latest-post .latest-post-right ul li img {
     width: 100%;
 }
 
-.latest-post .latest-post-right ul li p{
+.latest-post .latest-post-right ul li p {
     color: black;
     padding: 18px;
     font-size: 14px;
@@ -608,13 +630,13 @@ body {
 
 /* Our client start from here */
 
-.our-client{
+.our-client {
     width: 100%;
     float: left;
     margin: 50px 0;
 }
 
-.our-client ul{
+.our-client ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -622,12 +644,12 @@ body {
     justify-content: center;
 }
 
-.our-client ul li{
+.our-client ul li {
     list-style: none;
-    padding:0 24px;
+    padding: 0 24px;
 }
 
-.our-client .client-border{
+.our-client .client-border {
     border-right: 1px solid black;
 }
 
@@ -636,67 +658,94 @@ body {
 
 /* client say start from here */
 
-.client-say{
+.client-say {
     width: 100%;
     float: left;
     background-color: #f9f9f9;
-    padding:70px 0;
+    padding: 70px 0;
+    position: relative;
 }
 
-.client-say h1{
+.client-say::after {
+    content: "";
+    background: url(../img/left-arrow-blue.png);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 221px;
+    border: 1px solid blue;
+    text-align: center;
+    left: 176px;
+}
+
+.client-say::before {
+    content: "";
+    background: url(../img/right-arrow-blue.png);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 221px;
+    border: 1px solid blue;
+    text-align: center;
+    right: 176px;
+}
+
+.client-say h1 {
     text-align: center;
     font-size: 40px;
     color: blue;
-    margin-bottom:100px;
+    margin-bottom: 100px;
 }
 
-.client-say ul{
+.client-say ul {
     margin: 0;
     padding: 0;
 }
 
-.client-say ul li{
+.client-say ul li {
     list-style: none;
     text-align: center;
 }
+
+
 
 /* client say end from here */
 
 /* sign uo start from here */
 
-.sign-up{
+.sign-up {
     width: 100%;
     float: left;
-    padding:50px 0;
+    padding: 50px 0;
 }
 
-.sign-up ul{
+.sign-up ul {
     margin: 0;
     padding: 0;
 }
 
 
-.sign-up ul li{
+.sign-up ul li {
     text-align: center;
     float: left;
     width: 100%;
     list-style: none;
 }
 
-.sign-up ul li h5{
+.sign-up ul li h5 {
     color: blue;
 }
 
-.sign-up ul li h2{
-               font-size:45px;
-               font-weight: 800;
+.sign-up ul li h2 {
+    font-size: 45px;
+    font-weight: 800;
 }
 
-.sign-up ul li input{
+.sign-up ul li input {
     margin: 10px;
 }
 
-.sign-up ul li input[type=text]{
+.sign-up ul li input[type=text] {
     border: none;
     outline: none;
     box-shadow: none;
@@ -706,7 +755,8 @@ body {
 }
 
 
-.sign-up ul li input[type=email]{border: none;
+.sign-up ul li input[type=email] {
+    border: none;
     outline: none;
     box-shadow: none;
     background-color: #f1f1f1;
@@ -715,7 +765,7 @@ body {
 }
 
 
-.sign-up ul li input[type=submit]{
+.sign-up ul li input[type=submit] {
     background: #0047ff;
     color: #fff;
     padding: 13px 52px;
@@ -724,7 +774,7 @@ body {
     border-radius: 16px;
 }
 
-.sign-up ul li input[type=submit]:hover{
+.sign-up ul li input[type=submit]:hover {
     background-color: white;
     color: black;
     border: 1px solid blue;
@@ -733,82 +783,151 @@ body {
 /* Sign up end from here */
 
 /* footer start from here */
-.footer{
+.footer {
     background: url(../img/footer-bg.jpg)no-repeat;
     width: 100%;
     float: left;
     background-size: cover;
-    padding:200px 0 10px 0;
+    padding: 200px 0 10px 0;
 }
 
-.footer .footer-left{
+.footer .footer-left {
     width: 30%;
     float: left;
 }
 
-.footer .footer-left ul{
+.footer .footer-left ul {
     margin: 0;
     padding: 0;
 }
 
-.footer .footer-left ul li{
-       list-style: none;
-       float: left;
-       float: right;
-       width: 83%;
+.footer .footer-left ul li {
+    list-style: none;
+    float: left;
+    float: right;
+    width: 83%;
 }
-.line{
+
+.line {
     height: 3px;
     width: 25px;
     background-color: white;
     margin-bottom: 12px;
 }
 
-.footer .footer-left ul li img{
-           margin-bottom:20px;
+.footer .footer-left ul li img {
+    margin-bottom: 20px;
 }
 
-.footer .footer-left .footer-img{
-    margin-left:30px;
+.footer .footer-left .footer-img {
+    margin-left: 30px;
 }
 
-.footer .footer-left ul li p{
+.footer .footer-left ul li p {
     color: white;
     margin-bottom: 5px;
 }
 
-.footer .footer-right{
+.footer .footer-right {
     width: 70%;
-    float:right;
+    float: right;
 }
 
-.footer .footer-right ul{
+.footer .footer-right ul {
     margin: 0;
 }
 
-.footer .footer-right ul li{
+.footer .footer-right ul li {
     list-style: none;
     width: 25%;
     float: left;
 }
 
-.footer .footer-right ul li h3{
+.footer .footer-right ul li h3 {
     color: white;
-    margin-bottom:12px;
+    margin-bottom: 12px;
 }
 
-.footer .footer-right ul li p{
+.footer .footer-right ul li p {
     color: white;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-.copy-right{
+.copy-right {
     width: 100%;
     float: left;
     text-align: center;
 }
 
-.copy-right p{
+.copy-right p {
     color: white;
     font-size: 10px;
+}
+
+/* responsive for phone  */
+
+@media only screen and (min-width:320px) and (max-width: 480px) {
+
+    .container1 {
+        display: none;
+    }
+
+    .header {
+        float: left;
+        background: url(../img/index-home_banner.jpg)no-repeat center;
+        background-size: cover;
+        padding: 0 0 220px 0;
+        width:auto ;
+    }
+
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 100vw;
+        float: left;
+    }
+
+    .about .about-left {
+        width: 100%;
+    }
+
+    .about .about-left img {
+        width: 54%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .about .about-right {
+        width: 100vw;
+    }
+
+    .about .about-right ul li h2 {
+        font-size: 36px;
+    }
+
+
+    .ace-benefit {
+        width: 578px;
+    }
+
+    .ace-benefit .ace-benefit-right {
+        margin-top: 90px;
+        width: 100vw;
+        float: left;
+    }
+
+
+    .ace-benefit .ace-benefit-left {
+        margin-top: 90px;
+        width: 100vw;
+    }
+
+
 }
